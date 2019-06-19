@@ -1,0 +1,16 @@
+// Import custom variables (overrides Bootstrap default variables)
+@import "theme/variables";
+
+// Import Bootstrap
+@import "bootstrap/bootstrap";
+
+// Core variables and mixins
+@import "theme/mixins.scss";
+
+// Components
+@import "theme/masthead.scss";
+@import "theme/showcase.scss";
+@import "theme/icons.scss";
+@import "theme/testimonials.scss";
+@import "theme/call-to-action.scss";
+@import "theme/footer.scss";
